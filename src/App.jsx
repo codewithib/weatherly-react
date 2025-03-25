@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import SearchBar from "./components/SearchBar";
 import WeatherDetails from "./components/WeatherDetails";
 import Footer from "./components/Footer";
+import "./app.css"
 
 const App = () => {
     const [weather, setWeather] = useState(null);
